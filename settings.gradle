@@ -16,3 +16,4 @@ rootProject.name = "coursAndroid"
 include ':app'
 include ':mod2ihmsimple'
 include ':mod3lib'
+include ':mod4demofindviewbyid'
