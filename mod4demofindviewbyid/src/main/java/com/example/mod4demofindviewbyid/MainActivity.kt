@@ -2,6 +2,7 @@ package com.example.mod4demofindviewbyid
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.Editable
 import android.util.Log
 import android.widget.Button
 import android.widget.EditText
@@ -11,6 +12,8 @@ import android.widget.Toast
 import androidx.core.content.ContextCompat
 
 private const val TAG = "MainActivity"
+
+
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

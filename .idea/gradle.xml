@@ -13,7 +13,9 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/mod2ihmsimple" />
             <option value="$PROJECT_DIR$/mod3lib" />
+            <option value="$PROJECT_DIR$/mod4demodatabinding" />
             <option value="$PROJECT_DIR$/mod4demofindviewbyid" />
+            <option value="$PROJECT_DIR$/mod5demonavigationinterne" />
           </set>
         </option>
       </GradleProjectSettings>
