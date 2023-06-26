@@ -18,6 +18,8 @@
             <option value="$PROJECT_DIR$/mod5demomenu" />
             <option value="$PROJECT_DIR$/mod5demonavigationinterne" />
             <option value="$PROJECT_DIR$/mod5naviagtiondrawer" />
+            <option value="$PROJECT_DIR$/mod6demointentexplicite" />
+            <option value="$PROJECT_DIR$/mod6demointentimplicite" />
           </set>
         </option>
       </GradleProjectSettings>
