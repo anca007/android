@@ -21,6 +21,7 @@
             <option value="$PROJECT_DIR$/mod6demointentexplicite" />
             <option value="$PROJECT_DIR$/mod6demointentimplicite" />
             <option value="$PROJECT_DIR$/mod7lifecycle" />
+            <option value="$PROJECT_DIR$/mod8demoViewModel" />
           </set>
         </option>
       </GradleProjectSettings>
