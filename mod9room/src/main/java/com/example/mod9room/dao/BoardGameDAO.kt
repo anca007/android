@@ -7,18 +7,18 @@ import com.example.mod9room.bo.BoardGame
 interface BoardGameDAO {
 
     @Insert
-    fun insert(boardGame: BoardGame) : Long
+    suspend fun insert(boardGame: BoardGame) : Long
 
     @Update
-    fun update(boardGame: BoardGame)
+    suspend fun update(boardGame: BoardGame)
 
     @Delete
-    fun delete(boardGame: BoardGame)
+    suspend fun delete(boardGame: BoardGame)
 
     @Query("SELECT * FROM BoardGame WHERE id = :id")
-    fun getById(id : Long) : BoardGame
+    suspend fun getById(id : Long) : BoardGame
 
     @Query("SELECT * FROM BoardGame")
-    fun getAll() : List<BoardGame>
+    suspend fun getAll() : List<BoardGame>
 
 }
