@@ -31,14 +31,17 @@ class MainActivity : AppCompatActivity() {
         //tvScore.text = vm.getCounter().toString()
         binding.vm = vm
 
-
+        //acion éffectué quand la donnéé LiveData change
+        vm.counter.observe(this){
+            binding.vm = vm
+        }
 
         button.setOnClickListener {
             //j'incrémente et je renvoie la nouvelle valeur
             //tvScore.text = vm.increment().toString()
 
             vm.increment()
-            binding.vm = vm
+            //binding.vm = vm
         }
     }
 
