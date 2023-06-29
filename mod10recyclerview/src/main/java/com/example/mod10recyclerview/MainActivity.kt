@@ -43,8 +43,8 @@ class MainActivity : AppCompatActivity() {
 
 
         //définis la manière d'afficher les éléments au sein du recyclerView
-        recyclerView.layoutManager = GridLayoutManager(this, 2)
-        //recyclerView.layoutManager = LinearLayoutManager(this)
+        //recyclerView.layoutManager = GridLayoutManager(this, 2)
+        recyclerView.layoutManager = LinearLayoutManager(this)
 
 
 
